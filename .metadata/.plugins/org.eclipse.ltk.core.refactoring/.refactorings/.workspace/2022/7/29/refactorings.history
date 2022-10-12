@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;spring-autowire&apos;" deleteContents="false" description="Delete resource &apos;spring-autowire&apos;" element1="/spring-autowire" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1657969120795"/>
+</session>

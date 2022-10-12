@@ -1,0 +1,14 @@
+package com.spring.dependency;
+
+import org.springframework.stereotype.Component;
+
+public class OneDayMatch implements Match {
+
+	@Override
+	@Component
+	public void live() {
+		System.out.println("OneDay Cricket Match live telecasting");
+
+	}
+
+}

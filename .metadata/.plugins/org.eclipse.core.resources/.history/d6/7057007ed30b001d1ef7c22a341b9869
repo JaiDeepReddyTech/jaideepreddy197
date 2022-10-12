@@ -1,0 +1,11 @@
+package com.spring.dependency;
+
+public class OneDayMatch implements Match {
+
+	@Override
+	public void live() {
+		System.out.println("OneDay Cricket Match live telecasting");
+
+	}
+
+}

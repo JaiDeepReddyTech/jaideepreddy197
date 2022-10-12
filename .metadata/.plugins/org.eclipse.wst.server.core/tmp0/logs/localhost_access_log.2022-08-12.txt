@@ -1,0 +1,5 @@
+127.0.0.1 - - [12/Aug/2022:09:35:01 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/Aug/2022:09:35:03 +0530] "GET /servletdemo/EmployeeMVC HTTP/1.1" 200 894
+0:0:0:0:0:0:0:1 - - [12/Aug/2022:09:35:04 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [12/Aug/2022:09:35:12 +0530] "GET /servletdemo/EmployeeMVC HTTP/1.1" 200 894
+0:0:0:0:0:0:0:1 - - [12/Aug/2022:09:35:18 +0530] "GET /jspdemo/student-response.jsp?firstName=Jaideep&lastName=Reddy&DOB=2022-08-07&studentEmail=jaideepreddy%40gmail.com&country=India&favoriteLanguage=PHP HTTP/1.1" 200 383

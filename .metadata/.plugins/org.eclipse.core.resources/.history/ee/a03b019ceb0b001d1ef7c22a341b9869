@@ -1,0 +1,20 @@
+package com.spring.dependency;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan(basePackages="com.spring.dependency")
+public class CricketCofig {
+	@Bean
+	public Match match() {
+		Match match =new OneDayMatch();
+		return match;
+	}
+	@Bean
+	public Cricket cricket() {
+		Cricket crick=new Cricket();
+		return crick;
+	}
+}

@@ -1,0 +1,12 @@
+package com.jaicode.springdemo;
+
+public class Afhgv {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int a=10;
+byte a=20;
+System.out.println(a);
+	}
+
+}

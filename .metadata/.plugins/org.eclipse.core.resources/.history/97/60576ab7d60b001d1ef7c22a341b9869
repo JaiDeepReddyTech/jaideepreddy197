@@ -1,0 +1,28 @@
+package com.spring.dependency;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class TelecastMatch {
+
+	public static void main(String[] args) {
+//		ApplicationContext context = new AnnotationConfigApplicationContext(CricketConfig.class);
+//		Cricket liveTelecast = context.getBean("match", Cricket.class);
+//		liveTelecast.display();
+		int a =5;
+		int b=6;
+		int c=8;
+		a=a++;
+		b=++a;
+		c=b++;
+		a=b
+//		c=++b;
+//		a=c++;
+		
+		System.out.println(c);
+		
+	
+	}
+
+}

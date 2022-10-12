@@ -1,0 +1,23 @@
+package com.spring.dependency;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class TelecastMatch {
+
+	public static void main(String[] args) {
+		ApplicationContext context = new ClassPathXmlApplicationContext("NewFile.xml");
+		Cricket liveTelecast = context.getBean("match", Cricket.class);
+		liveTelecast.display();
+		String s1="dhhvsdlfd";
+		char fr=s1.charAt(0);
+		char ls=s1.charAt(s1.length()-1);
+		if(fr==ls) {
+			System.out.println("jkb");
+		}
+		else {
+			System.out.println("lkasn");
+		}
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.jaicode.springdemo;
+
+public class StudentMain {
+public static void main(String[] args) {
+	Student sut=new Student();
+	sut.setStudentName("Jaideep");
+	sut.setCollegeName("RGM");
+	sut.setLocation("Nandyal");
+	sut.setStudentId(354534354);
+	System.out.println("Student Name"+sut.getStudentName());
+	System.out.println("Student Id"+sut.getStudentId());
+	System.out.println("College Name "+sut.getCollegeName());
+	System.out.println("Location :"+sut.getLocation());
+}
+}

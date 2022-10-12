@@ -1,0 +1,11 @@
+127.0.0.1 - - [09/Aug/2022:11:47:16 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [09/Aug/2022:11:47:19 +0530] "GET /servletdemo/MVCDemoServlets HTTP/1.1" 200 715
+0:0:0:0:0:0:0:1 - - [09/Aug/2022:11:47:19 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [09/Aug/2022:11:50:12 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [09/Aug/2022:11:50:12 +0530] "GET /servletdemo/student-form.html HTTP/1.1" 200 456
+0:0:0:0:0:0:0:1 - - [09/Aug/2022:11:50:23 +0530] "GET /servletdemo/StudentServlets?firstName=Jaideep&lastName=Reddy HTTP/1.1" 200 73
+0:0:0:0:0:0:0:1 - - [09/Aug/2022:11:51:00 +0530] "GET /jspdemo/student-form.html HTTP/1.1" 200 912
+0:0:0:0:0:0:0:1 - - [09/Aug/2022:11:51:16 +0530] "GET /jspdemo/student-response.jsp?firstName=Jaideep&lastName=Reddy&DOB=2022-08-23&studentEmail=jaideepreddy%40gmail.com&country=India&favoriteLanguage=Java&favoriteLanguage=Ruby HTTP/1.1" 200 384
+0:0:0:0:0:0:0:1 - - [09/Aug/2022:11:52:05 +0530] "GET /jspdemo/student-response.jsp?firstName=&lastName=&DOB=&studentEmail=&country=India&favoriteLanguage=Ruby HTTP/1.1" 200 325
+0:0:0:0:0:0:0:1 - - [09/Aug/2022:11:54:29 +0530] "GET /jspdemo/student-response.jsp?firstName=Jaideep&lastName=Reddy&DOB=&studentEmail=jaideepreddy%40gmail.com&country=India&favoriteLanguage=Ruby&favoriteLanguage=PHP HTTP/1.1" 200 388
+0:0:0:0:0:0:0:1 - - [09/Aug/2022:12:07:12 +0530] "GET /jspdemo/student-response.jsp?firstName=Jaideep&lastName=Reddy&DOB=2022-08-07&studentEmail=jaideepreddy%40gmail.com&country=India&favoriteLanguage=PHP HTTP/1.1" 200 383
